@@ -1,20 +1,6 @@
-# Git-CheatSheet
-This is the A to Z git command cheat sheet.
-
-
-Git-CheatSheet/
-├── README.md
-├── Configuration.md
-├── Workflow.md
-├── Branching.md
-├── Stashing.md
-├── Tagging.md
-├── UndoingChanges.md
-├── AdvancedWorkflow.md
-├── TipsAndTricks.md
-└── Resources.md
-
 # Git Cheat Sheet
+
+This is the A to Z Git command cheat sheet.
 
 This repository provides a comprehensive Git cheat sheet for quick reference and learning. It covers common Git commands, workflows, and best practices.
 
@@ -32,7 +18,6 @@ This repository provides a comprehensive Git cheat sheet for quick reference and
 ## Contributions
 Feel free to contribute by submitting a pull request!
 
-
 # Configuration
 
 ### Setting Up Git
@@ -43,6 +28,11 @@ Feel free to contribute by submitting a pull request!
 - **Set merge tool:** `git config --global merge.tool vimdiff`
 - **Set diff tool:** `git config --global diff.tool meld`
 
+### Repository Setup
+- **Create new repository:** `git init`
+- **Clone a repository:** `git clone <repo-url>`
+- **Add a remote repository:** `git remote add <name> <repo-url>`
+- **List remote repositories:** `git remote -v`
 
 # Basic Workflow
 
@@ -67,13 +57,32 @@ Feel free to contribute by submitting a pull request!
 - **Force delete branch:** `git branch -D <branch-name>`
 
 
+# Stashing
+
+### Overview
+Stashing allows you to save changes in your working directory temporarily without committing them. This is useful when you need to switch branches or work on something else but want to save your progress.
+
+---
+
+### Common Commands
+- **Save changes to stash:** `git stash save "Message"`
+- **List all stashes:** `git stash list`
+- **Apply the latest stash:** `git stash apply`
+- **Apply a specific stash:** `git stash apply stash@{<index>}`
+- **Delete the latest stash:** `git stash drop`
+- **Delete a specific stash:** `git stash drop stash@{<index>}`
+- **Pop (apply and remove) the latest stash:** `git stash pop`
+- **Create a stash and include untracked files:** `git stash -u`
+
+
 # Resources
 
 - [Official Git Website](https://git-scm.com/)
 - [Git Documentation](https://git-scm.com/doc)
-- [Pro Git Book](https://git-scm.com/book/en/v2)
 - [GitHub Learning Lab](https://lab.github.com/)
 - [Atlassian Git Tutorial](https://www.atlassian.com/git/tutorials)
 - [Git Immersion](https://gitimmersion.com/)
 - [Git Cheat Sheet by GitHub](https://education.github.com/git-cheat-sheet-education.pdf)
 - [Git Cheat Sheet by Tower](https://www.git-tower.com/blog/git-cheat-sheet/)
+
+

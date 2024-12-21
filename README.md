@@ -4,6 +4,7 @@ This is the A to Z Git command cheat sheet.
 
 This repository provides a comprehensive Git cheat sheet for quick reference and learning. It covers common Git commands, workflows, and best practices.
 
+
 ## Sections
 - [Configuration](Configuration.md)
 - [Basic Workflow](Workflow.md)

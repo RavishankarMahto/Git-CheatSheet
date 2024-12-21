@@ -5,15 +5,15 @@ This is the A to Z Git command cheat sheet.
 This repository provides a comprehensive Git cheat sheet for quick reference and learning. It covers common Git commands, workflows, and best practices.
 
 ## Sections
-- [Configuration](Configuration.md)
-- [Basic Workflow](Workflow.md)
-- [Branching](Branching.md)
-- [Stashing](Stashing.md)
-- [Tagging](Tagging.md)
-- [Undoing Changes](UndoingChanges.md)
-- [Advanced Workflow](AdvancedWorkflow.md)
-- [Tips and Tricks](TipsAndTricks.md)
-- [Resources](Resources.md)
+- [Configuration](#Configuration.md)
+- [Basic Workflow](#Workflow.md)
+- [Branching](#Branching.md)
+- [Stashing](#Stashing.md)
+- [Tagging](#Tagging.md)
+- [Undoing Changes](#UndoingChanges.md)
+- [Advanced Workflow](#AdvancedWorkflow.md)
+- [Tips and Tricks](#TipsAndTricks.md)
+- [Resources](#Resources.md)
 
 ## Contributions
 Feel free to contribute by submitting a pull request!

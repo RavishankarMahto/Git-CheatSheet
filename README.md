@@ -16,6 +16,20 @@ This repository provides a comprehensive Git cheat sheet for quick reference and
 - [Tips and Tricks](TipsAndTricks.md)
 - [Resources](Resources.md)
 
+
+
+
+  ## Git Resources
+
+- **Git**
+  - [Resource 1](Tools/git_1.pdf)
+  - [Resource 2](Tools/git_2.pdf)
+  - [Resource 3](Tools/git_3.pdf)
+  - [Resource 4](Tools/git_4.pdf)
+  - [Resource 5](Tools/git_5.pdf)
+
+---
+
 ## Contributions
 Feel free to contribute by submitting a pull request!
 
